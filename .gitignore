@@ -1,0 +1,20 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+
+# Protected source data
+data/*
+!data/README.md
+
+# Generated analytic data and outputs
+derived/*
+!derived/.gitkeep
+output/tables/*
+!output/tables/.gitkeep
+output/figures/*
+!output/figures/.gitkeep
+
+# Temporary Office files
+~$*
